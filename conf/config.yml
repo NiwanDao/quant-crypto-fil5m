@@ -1,0 +1,28 @@
+# Global config for FIL/USDT 5m MVP
+exchange:
+  # ccxt exchange id for binance spot:
+  id: binance
+  enableRateLimit: true
+  options:
+    defaultType: spot
+symbol: FIL/USDT
+timeframe: 5m
+fetch:
+  lookback_days: 120
+  batch_limit: 1000
+features:
+  forward_n: 4          # label horizon in bars
+  label_threshold: 0.001
+model:
+  proba_threshold: 0.60  # P(up) threshold for long entries
+risk:
+  max_risk_per_trade: 0.005
+  atr_stop_mult: 1.5
+  atr_trail_mult: 1.0
+fees_slippage:
+  taker_fee_bps: 6       # 6 bps = 0.06%
+  base_slippage_bps: 1   # baseline slippage bps
+backtest:
+  initial_cash: 10000
+  size_mode: fixed_cash  # or 'fixed_pct'
+  fixed_cash_per_trade: 1000
