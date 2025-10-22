@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+.ipynb_checkpoints/
+.cache/
+.DS_Store
+
+# Data & models (raw / heavy / generated)
+data/*.csv
+data/*.json
+data/*.parquet
+models/*.bin
+models/*.pkl
+models/*.txt
+
+# Backtest artifacts (可保留构件由 Actions 提供下载)
+backtest/*.png
+backtest/*.html
