@@ -1,32 +1,68 @@
-# Global config for FIL/USDT 5m MVP
+backtest:
+  fixed_cash_per_trade: 1000
+  initial_cash: 10000
+  size_mode: fixed_cash
+  use_dynamic_thresholds: true
+  use_ensemble_prediction: true
+  use_optimized_model: true
+dynamic_thresholds:
+  enabled: true
+  max_buy_adjustment: 0.1
+  max_buy_threshold: 0.65
+  max_sell_adjustment: 0.1
+  max_sell_threshold: 0.65
+  min_buy_threshold: 0.3
+  min_sell_threshold: 0.1
+  performance_adjustment: true
+  regime_adjustment: true
+  strength_adjustment: true
+  trend_adjustment: true
+  volatility_adjustment: true
 exchange:
-  # ccxt exchange id for binance testnet:
-  id: binance
   enableRateLimit: true
+  id: binance
   options:
     defaultType: spot
-    sandbox: true  # 启用测试网模式
+features:
+  forward_n: 4
+  label_threshold: 0.01
+fees_slippage:
+  base_slippage_bps: 1
+  taker_fee_bps: 6
+fetch:
+  batch_limit: 1000
+  lookback_days: 120
+model:
+  early_stopping_rounds: 50
+  hyperparameter_optimization: true
+  min_confidence: 0.7
+  min_signal_strength: 0.3
+  n_ensemble_models: 5
+  n_trials: 50
+  optimized_at: '2025-10-22T08:31:12.281166'
+  proba_threshold: 0.1
+  sell_threshold: 0.05
+  uncertainty_threshold: 0.1
+  use_dynamic_thresholds: true
+  use_early_stopping: true
+  use_ensemble: true
+  use_model_weights: true
+  weight_by_performance: true
+risk:
+  atr_stop_mult: 1.5
+  atr_tp_mult: 2.0
+  atr_trail_mult: 1.0
+  dynamic_risk: true
+  max_risk_per_trade: 0.005
+  trend_risk_adjustment: true
+  volatility_risk_adjustment: true
+robustness:
+  confidence_filtering: true
+  enabled: true
+  max_uncertainty: 0.2
+  min_signal_confidence: 0.7
+  model_agreement_threshold: 0.6
+  require_model_agreement: true
+  uncertainty_filtering: true
 symbol: FIL/USDT
 timeframe: 15m
-fetch:
-  lookback_days: 120
-  batch_limit: 1000
-features:
-  forward_n: 4          # label horizon in bars
-  label_threshold: 0.001
-model:
-  proba_threshold: 0.60  # P(up) threshold for long entries
-  sell_threshold: 0.40   # P(down) threshold for short entries
-  min_signal_strength: 0.3  # 最小信号强度阈值
-risk:
-  max_risk_per_trade: 0.005
-  atr_stop_mult: 1.5
-  atr_trail_mult: 1.0
-  atr_tp_mult: 2.0
-fees_slippage:
-  taker_fee_bps: 6       # 6 bps = 0.06%
-  base_slippage_bps: 1   # baseline slippage bps
-backtest:
-  initial_cash: 10000
-  size_mode: fixed_cash  # or 'fixed_pct'
-  fixed_cash_per_trade: 1000
