@@ -264,3 +264,4 @@ class DynamicThresholdManager:
         if os.path.exists(filepath):
             with open(filepath, 'r') as f:
                 self.thresholds_history = json.load(f)
+

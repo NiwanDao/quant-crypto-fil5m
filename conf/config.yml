@@ -33,15 +33,15 @@ fetch:
   batch_limit: 1000
   lookback_days: 120
 model:
-  early_stopping_rounds: 50
+  early_stopping_rounds: 30
   hyperparameter_optimization: true
   min_confidence: 0.7
-  min_signal_strength: 0.3
+  min_signal_strength: 0.4
   n_ensemble_models: 5
   n_trials: 50
-  optimized_at: '2025-10-22T08:31:12.281166'
-  proba_threshold: 0.1
-  sell_threshold: 0.05
+  optimized_at: '2025-10-23T10:12:03.760579'
+  proba_threshold: 0.17630173274476119
+  sell_threshold: 0.11594370193194029
   uncertainty_threshold: 0.1
   use_dynamic_thresholds: true
   use_early_stopping: true

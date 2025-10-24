@@ -1,0 +1,2 @@
+timestamp,mean_auc_model,mean_div_model,mean_auc_signal,mean_div_signal,mean_disagreement,std_auc_signal,stability_gap,stability_model_score,stability_signal_score
+2025-10-23 10:12:03,0.7069128519637496,0.0346720262729765,0.7069128519637496,0.0346720262729765,0.2201057989756845,0.020076453415523995,0.0,0.024018025075537585,0.024018025075537585

@@ -362,7 +362,7 @@ def run_complete_validation():
     
     try:
         # 1. 模型性能验证
-        df = pd.read_parquet('data/feat_2024_8_to_2025_3.parquet')
+        df = pd.read_parquet('data/feat_2025_6_to_now.parquet')
         features = [c for c in df.columns if c not in ['y']]
         X, y = df[features], df['y']
         

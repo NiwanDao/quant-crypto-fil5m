@@ -342,3 +342,4 @@ class RobustSignalGenerator:
     def get_performance_stats(self) -> Dict:
         """获取性能统计"""
         return self.performance_tracker.copy()
+

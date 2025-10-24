@@ -1,0 +1,460 @@
+2025-10-24 01:36:54,212 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:36:54,266 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:36:54,267 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:36:54,267 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:36:54,267 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:36:54,267 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:36:54,267 - LiveTrading - ERROR - ❌ 交易周期执行失败: 'symbol'
+2025-10-24 01:36:54,271 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.binance.com:443
+2025-10-24 01:36:59,268 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:37:16,956 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:37:17,012 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:37:17,013 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:37:17,013 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:37:17,013 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:37:17,017 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:37:17,017 - LiveTrading - ERROR - ❌ 获取市场数据失败: 'PaperTradingExchange' object has no attribute 'get_klines'
+2025-10-24 01:37:17,017 - LiveTrading - WARNING - ⚠️ 无法获取市场数据
+2025-10-24 01:37:19,824 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.okx.com/api/v5/public/time
+2025-10-24 01:37:22,018 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:37:34,264 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:37:34,317 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:37:34,317 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:37:34,317 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:37:34,317 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:37:34,318 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:37:34,333 - LiveTrading - ERROR - ❌ 信号生成失败: Number of features of the model must match the input. Model n_features_ is 31 and input n_features is 23
+2025-10-24 01:37:34,333 - LiveTrading - ERROR - ❌ 持仓更新失败: 'PaperTradingExchange' object has no attribute 'update_positions'
+2025-10-24 01:37:34,333 - LiveTrading - ERROR - ❌ 获取投资组合价值失败: 'PaperTradingExchange' object has no attribute 'get_portfolio_value'
+2025-10-24 01:37:34,333 - LiveTrading - WARNING - ⚠️ 回撤超过20%，停止交易
+2025-10-24 01:37:39,280 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.okx.com/api/v5/public/time
+2025-10-24 01:37:39,333 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:38:25,663 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:38:25,714 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:38:25,714 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:38:25,714 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:38:25,714 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:38:25,715 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:38:25,735 - LiveTrading - ERROR - ❌ 信号生成失败: Number of features of the model must match the input. Model n_features_ is 31 and input n_features is 45
+2025-10-24 01:38:25,736 - LiveTrading - ERROR - ❌ 风险管理检查失败: 'risk'
+2025-10-24 01:38:30,456 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.okx.com/api/v5/public/time
+2025-10-24 01:38:30,736 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:38:40,520 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:38:40,577 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:38:40,578 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:38:40,578 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:38:40,578 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:38:40,578 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:38:40,606 - LiveTrading - ERROR - ❌ 信号生成失败: Number of features of the model must match the input. Model n_features_ is 31 and input n_features is 30
+2025-10-24 01:38:40,607 - LiveTrading - ERROR - ❌ 风险管理检查失败: 'risk'
+2025-10-24 01:38:45,607 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:39:34,130 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:39:34,205 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:39:34,205 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:39:34,205 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:39:34,205 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:39:34,206 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:39:34,227 - LiveTrading - ERROR - ❌ 信号生成失败: Number of features of the model must match the input. Model n_features_ is 31 and input n_features is 30
+2025-10-24 01:39:34,228 - LiveTrading - ERROR - ❌ 风险管理检查失败: 'risk'
+2025-10-24 01:39:38,803 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.okx.com/api/v5/public/time
+2025-10-24 01:39:39,228 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:40:18,268 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:40:18,328 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:40:18,328 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:40:18,328 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:40:18,329 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:40:18,329 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:40:18,350 - LiveTrading - ERROR - ❌ 信号生成失败: Number of features of the model must match the input. Model n_features_ is 31 and input n_features is 30
+2025-10-24 01:40:18,351 - LiveTrading - ERROR - ❌ 风险管理检查失败: 'risk'
+2025-10-24 01:40:23,012 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.okx.com/api/v5/public/time
+2025-10-24 01:40:23,351 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:40:42,985 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:40:43,052 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:40:43,052 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:40:43,052 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:40:43,052 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:40:43,052 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:40:43,080 - LiveTrading - ERROR - ❌ 信号生成失败: Number of features of the model must match the input. Model n_features_ is 31 and input n_features is 30
+2025-10-24 01:40:43,081 - LiveTrading - ERROR - ❌ 风险管理检查失败: 'risk'
+2025-10-24 01:40:48,081 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:40:58,575 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:40:58,632 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:40:58,632 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:40:58,632 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:40:58,632 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:40:58,633 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:40:58,655 - LiveTrading - ERROR - ❌ 信号生成失败: Number of features of the model must match the input. Model n_features_ is 31 and input n_features is 30
+2025-10-24 01:40:58,656 - LiveTrading - ERROR - ❌ 风险管理检查失败: 'risk'
+2025-10-24 01:41:03,266 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.okx.com/api/v5/public/time
+2025-10-24 01:41:03,657 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:41:34,778 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:41:34,833 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:41:34,833 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:41:34,833 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:41:34,833 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:41:34,834 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:41:34,858 - LiveTrading - ERROR - ❌ 信号生成失败: Number of features of the model must match the input. Model n_features_ is 31 and input n_features is 30
+2025-10-24 01:41:34,858 - LiveTrading - ERROR - ❌ 风险管理检查失败: 'risk'
+2025-10-24 01:41:39,782 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.okx.com/api/v5/public/time
+2025-10-24 01:41:39,859 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:42:15,651 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:42:15,726 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:42:15,726 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:42:15,726 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:42:15,726 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:42:15,730 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:42:15,833 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 01:42:15,833 - LiveTrading - INFO - 🎯 信号结果: buy=False, sell=True
+2025-10-24 01:42:15,834 - LiveTrading - ERROR - ❌ 风险管理检查失败: 'risk'
+2025-10-24 01:42:20,369 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.okx.com/api/v5/public/time
+2025-10-24 01:42:20,834 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:42:39,787 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:42:39,851 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:42:39,851 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:42:39,851 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:42:39,851 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:42:39,852 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:42:39,960 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 01:42:39,960 - LiveTrading - INFO - 🎯 信号结果: buy=False, sell=True
+2025-10-24 01:42:39,961 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 01:42:44,917 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.binance.com/api/v3/ping
+2025-10-24 01:42:44,919 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.okx.com/api/v5/public/time
+2025-10-24 01:42:44,961 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:44:27,264 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:44:27,321 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:44:27,322 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:44:27,322 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:44:27,322 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:44:27,323 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:44:27,335 - TradingMonitor - ERROR - ❌ 系统健康检查失败: No module named 'psutil'
+2025-10-24 01:44:27,445 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 01:44:27,445 - LiveTrading - INFO - 🎯 信号结果: buy=False, sell=True
+2025-10-24 01:44:27,446 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 01:44:32,428 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.binance.com/api/v3/ping
+2025-10-24 01:44:32,430 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.okx.com/api/v5/public/time
+2025-10-24 01:44:32,446 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:45:27,078 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:45:27,153 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:45:27,154 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:45:27,154 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:45:27,154 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:45:27,155 - TradingMonitor - ERROR - ❌ 系统健康检查失败: No module named 'psutil'
+2025-10-24 01:45:27,157 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:45:27,265 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 01:45:27,265 - LiveTrading - INFO - 🎯 信号结果: buy=False, sell=True
+2025-10-24 01:45:27,265 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 01:45:31,169 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.okx.com/api/v5/public/time
+2025-10-24 01:45:32,266 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:46:44,643 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:46:44,707 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:46:44,707 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:46:44,708 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:46:44,708 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:46:44,708 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:46:44,813 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 01:46:44,813 - LiveTrading - INFO - 🎯 信号结果: buy=False, sell=True
+2025-10-24 01:46:44,814 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 01:46:49,815 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:47:14,173 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:47:14,242 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:47:14,243 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:47:14,243 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:47:14,243 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:47:14,243 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:47:14,243 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 01:47:14,359 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 01:47:14,359 - LiveTrading - INFO - 🎯 信号结果: buy=False, sell=True
+2025-10-24 01:47:14,360 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 01:47:14,360 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 01:47:19,353 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.binance.com/api/v3/ping
+2025-10-24 01:47:19,356 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.okx.com/api/v5/public/time
+2025-10-24 01:47:24,444 - TradingMonitor - WARNING - 🚨 ERROR: 网络连接失败: https://api.bybit.com/v2/public/time
+2025-10-24 01:47:29,186 - LiveTrading - INFO - ⏹️ 收到停止信号
+2025-10-24 01:47:29,187 - LiveTrading - INFO - 🏁 交易系统已停止
+2025-10-24 01:47:34,187 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:53:16,981 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:53:17,042 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:53:17,042 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:53:17,042 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:53:17,042 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:53:17,043 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:53:17,064 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.binance.com:443
+2025-10-24 01:53:17,161 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 01:53:17,161 - LiveTrading - INFO - 🎯 信号结果: buy=False, sell=True
+2025-10-24 01:53:17,162 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 01:53:22,162 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 01:53:47,906 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 01:53:47,969 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 01:53:47,969 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 01:53:47,969 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 01:53:47,969 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 01:53:47,969 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 01:53:47,969 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 01:53:48,083 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 01:53:48,083 - LiveTrading - INFO - 🎯 信号结果: buy=False, sell=True
+2025-10-24 01:53:48,084 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 01:53:48,084 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 02:08:48,211 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 02:08:48,212 - LiveTrading - INFO - 🎯 信号结果: buy=False, sell=True
+2025-10-24 02:08:48,212 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 02:08:48,212 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 02:22:11,654 - LiveTrading - INFO - ⏹️ 收到停止信号
+2025-10-24 02:22:11,654 - LiveTrading - INFO - 🏁 交易系统已停止
+2025-10-24 02:22:16,180 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 02:22:16,235 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 02:22:16,235 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 02:22:16,236 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 02:22:16,236 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 02:22:16,236 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 02:22:16,236 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 02:22:16,348 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 02:22:16,348 - LiveTrading - INFO - 🎯 信号结果: buy=True, sell=True
+2025-10-24 02:22:16,349 - LiveTrading - ERROR - ❌ 仓位计算失败: 'fixed_cash_per_trade'
+2025-10-24 02:22:16,349 - LiveTrading - WARNING - ⚠️ 买入信号但仓位大小为0，跳过交易
+2025-10-24 02:22:16,349 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 02:22:16,349 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 02:22:29,129 - LiveTrading - INFO - ⏹️ 收到停止信号
+2025-10-24 02:22:29,129 - LiveTrading - INFO - 🏁 交易系统已停止
+2025-10-24 02:22:34,130 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 02:23:47,721 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 02:23:47,795 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 02:23:47,795 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 02:23:47,795 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 02:23:47,795 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 02:23:47,796 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 02:23:47,798 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 02:23:47,903 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 02:23:47,903 - LiveTrading - INFO - 🎯 信号结果: buy=True, sell=True
+2025-10-24 02:23:47,904 - LiveTrading - ERROR - ❌ 仓位计算失败: unsupported operand type(s) for *: 'Balance' and 'float'
+2025-10-24 02:23:47,904 - LiveTrading - WARNING - ⚠️ 买入信号但仓位大小为0，跳过交易
+2025-10-24 02:23:47,904 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 02:23:47,904 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 02:23:54,089 - LiveTrading - INFO - ⏹️ 收到停止信号
+2025-10-24 02:23:54,089 - LiveTrading - INFO - 🏁 交易系统已停止
+2025-10-24 02:23:59,089 - TradingMonitor - INFO - ⏹️ 监控系统已停止
+2025-10-24 02:25:28,826 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 02:25:28,877 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 02:25:28,878 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 02:25:28,878 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 02:25:28,878 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 02:25:28,879 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 02:25:28,880 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 02:25:28,985 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 02:25:28,985 - LiveTrading - INFO - 🎯 信号结果: buy=True, sell=True
+2025-10-24 02:25:28,986 - LiveTrading - INFO - 💰 仓位计算: 基础=1000, 强度倍数=0.671, 可用资金=10000.00, 最终仓位=169.578119
+2025-10-24 02:25:28,986 - LiveTrading - ERROR - ❌ 交易执行失败: 'PaperTradingExchange' object has no attribute 'place_order'
+2025-10-24 02:25:28,986 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 02:25:28,986 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 02:26:49,641 - LiveTrading - INFO - ⏹️ 收到停止信号
+2025-10-24 02:26:49,641 - LiveTrading - INFO - 🏁 交易系统已停止
+2025-10-24 02:26:56,715 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 02:26:56,780 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 02:26:56,780 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 02:26:56,780 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 02:26:56,780 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 02:26:56,780 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 02:26:56,781 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 02:26:56,892 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 02:26:56,892 - LiveTrading - INFO - 🎯 信号结果: buy=True, sell=True
+2025-10-24 02:26:56,893 - LiveTrading - INFO - 💰 仓位计算: 基础=1000, 强度倍数=0.671, 可用资金=10000.00, 最终仓位=169.578119
+2025-10-24 02:26:56,893 - LiveTrading - ERROR - ❌ 订单提交失败: buy_1761272816893
+2025-10-24 02:26:56,893 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 02:26:56,893 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 02:29:12,336 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 02:29:12,418 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 02:29:12,418 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 02:29:12,418 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 02:29:12,418 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 02:29:12,418 - LiveTrading - INFO - 📝 创建订单: buy_1761272952418 - buy 10.000000 FIL/USDT @ 5.0000
+2025-10-24 02:29:12,418 - LiveTrading - INFO - ✅ 订单提交成功: buy_1761272952418
+2025-10-24 02:29:12,418 - LiveTrading - ERROR - ❌ 余额不足: 需要 5.000000 FIL, 可用 0.000000 FIL
+2025-10-24 02:29:12,418 - LiveTrading - ERROR - ❌ 余额不足: 需要 50000.00 USDT, 可用 10000.00 USDT
+2025-10-24 02:29:20,544 - LiveTrading - INFO - ⏹️ 收到停止信号
+2025-10-24 02:29:20,544 - LiveTrading - INFO - 🏁 交易系统已停止
+2025-10-24 02:29:24,052 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 02:29:24,125 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 02:29:24,125 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 02:29:24,125 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 02:29:24,125 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 02:29:24,125 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 02:29:24,126 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 02:29:24,244 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 02:29:24,244 - LiveTrading - INFO - 🎯 信号结果: buy=True, sell=True
+2025-10-24 02:29:24,245 - LiveTrading - INFO - 💰 仓位计算: 基础=1000, 强度倍数=0.671, 可用资金=10000.00, 最终仓位=169.578119
+2025-10-24 02:29:24,245 - LiveTrading - INFO - 📝 创建订单: buy_1761272964245 - buy 169.578119 FIL/USDT @ 3.9559
+2025-10-24 02:29:24,245 - LiveTrading - ERROR - ❌ 交易执行失败: 'str' object has no attribute 'value'
+2025-10-24 02:29:24,246 - LiveTrading - ERROR - 详细错误: Traceback (most recent call last):
+  File "/home/shiyi/quant-crypto-fil5m/live/live_trading.py", line 414, in execute_trade
+    self.logger.error(f"❌ 订单提交失败: {order_id} - 状态: {order.status.value}")
+AttributeError: 'str' object has no attribute 'value'
+
+2025-10-24 02:29:24,247 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 02:29:24,247 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 02:30:08,467 - LiveTrading - INFO - ⏹️ 收到停止信号
+2025-10-24 02:30:08,468 - LiveTrading - INFO - 🏁 交易系统已停止
+2025-10-24 02:30:11,279 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 02:30:11,342 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 02:30:11,342 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 02:30:11,342 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 02:30:11,342 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 02:30:11,343 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 02:30:11,344 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 02:30:11,457 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 02:30:11,460 - LiveTrading - INFO - 🎯 信号结果: buy=True, sell=True
+2025-10-24 02:30:11,461 - LiveTrading - INFO - 💰 仓位计算: 基础=1000, 强度倍数=0.671, 可用资金=10000.00, 最终仓位=169.578119
+2025-10-24 02:30:11,461 - LiveTrading - INFO - 📝 创建订单: buy_1761273011461 - buy 169.578119 FIL/USDT @ 3.9559
+2025-10-24 02:30:11,461 - LiveTrading - ERROR - ❌ 订单提交失败: buy_1761273011461 - 状态: rejected
+2025-10-24 02:30:11,461 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 02:30:11,461 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 02:37:00,721 - LiveTrading - INFO - ⏹️ 收到停止信号
+2025-10-24 02:37:00,722 - LiveTrading - INFO - 🏁 交易系统已停止
+2025-10-24 02:37:04,633 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 02:37:04,703 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 02:37:04,703 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 02:37:04,703 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 02:37:04,703 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 02:37:04,703 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 02:37:04,703 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 02:37:04,812 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 02:37:04,812 - LiveTrading - INFO - 🎯 信号结果: buy=True, sell=True
+2025-10-24 02:37:04,813 - LiveTrading - INFO - 💰 仓位计算: 基础=1000, 强度倍数=0.671, 可用资金=10000.00, 最终仓位=169.578119
+2025-10-24 02:37:04,813 - LiveTrading - INFO - 📝 创建订单: buy_1761273424813 - buy 169.578119 FIL/USDT @ 3.9559
+2025-10-24 02:37:04,813 - LiveTrading - ERROR - ❌ 订单提交失败: buy_1761273424813 - 状态: rejected
+2025-10-24 02:37:04,813 - LiveTrading - ERROR - ❌ 拒绝原因: 未知原因
+2025-10-24 02:37:04,813 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 02:37:04,814 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 02:42:36,202 - LiveTrading - INFO - ⏹️ 收到停止信号
+2025-10-24 02:42:36,202 - LiveTrading - INFO - 🏁 交易系统已停止
+2025-10-24 02:42:39,538 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 02:42:39,594 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 02:42:39,594 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 02:42:39,594 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 02:42:39,594 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 02:42:39,595 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 02:42:39,595 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 02:42:39,704 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 02:42:39,704 - LiveTrading - INFO - 🎯 信号结果: buy=True, sell=True
+2025-10-24 02:42:39,705 - LiveTrading - INFO - 💰 仓位计算: 基础=1000, 强度倍数=0.671, 可用资金=10000.00, 最终仓位=169.578119
+2025-10-24 02:42:39,705 - LiveTrading - INFO - 🔍 余额调试信息:
+2025-10-24 02:42:39,705 - LiveTrading - INFO -   - 订单方向: OrderSide.BUY
+2025-10-24 02:42:39,705 - LiveTrading - INFO -   - 订单数量: 169.57811918787328
+2025-10-24 02:42:39,705 - LiveTrading - INFO -   - 订单价格: 3.955878590483755
+2025-10-24 02:42:39,705 - LiveTrading - INFO -   - 当前余额: {'USDT': PaperTradingExchange.get_balance.<locals>.Balance(free=10000, used=0.0, total=10000), 'FIL': PaperTradingExchange.get_balance.<locals>.Balance(free=0.0, used=0.0, total=0.0)}
+2025-10-24 02:42:39,705 - LiveTrading - INFO -   - 买入成本: 670.83 USDT
+2025-10-24 02:42:39,705 - LiveTrading - INFO -   - USDT余额类型: <class 'live.exchange_interface.PaperTradingExchange.get_balance.<locals>.Balance'>
+2025-10-24 02:42:39,705 - LiveTrading - INFO -   - USDT余额值: PaperTradingExchange.get_balance.<locals>.Balance(free=10000, used=0.0, total=10000)
+2025-10-24 02:42:39,705 - LiveTrading - INFO -   - USDT可用余额: 10000
+2025-10-24 02:42:39,705 - LiveTrading - INFO - 📝 创建订单: buy_1761273759705 - buy 169.578119 FIL/USDT @ 3.9559
+2025-10-24 02:42:39,705 - LiveTrading - INFO - 🔍 提交订单前状态: 订单ID=buy_1761273759705, 状态=OrderStatus.PENDING, 余额={'USDT': PaperTradingExchange.get_balance.<locals>.Balance(free=10000, used=0.0, total=10000), 'FIL': PaperTradingExchange.get_balance.<locals>.Balance(free=0.0, used=0.0, total=0.0)}
+2025-10-24 02:42:39,705 - LiveTrading - INFO - 📝 使用模拟交易模式
+2025-10-24 02:42:39,705 - LiveTrading - INFO - 🔍 订单提交后状态: 成功=False, 订单状态=rejected
+2025-10-24 02:42:39,705 - LiveTrading - ERROR - ❌ 订单提交失败: buy_1761273759705 - 状态: rejected
+2025-10-24 02:42:39,705 - LiveTrading - ERROR - ❌ 拒绝原因: 买入订单被拒绝 - 成本: 670.83 USDT, 可用: 10000.00 USDT, 订单状态: rejected
+2025-10-24 02:42:39,705 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 02:42:39,706 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 02:56:47,505 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 02:56:47,561 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 02:56:47,561 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 02:56:47,561 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 02:56:47,561 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 02:56:47,561 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 02:56:47,561 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 02:56:47,567 - LiveTrading - INFO - 🔍 原始数据验证: close列后5个值=[3.9302018390231495, 3.953478088172974, 3.974119614140278, 3.9745260439070553, 3.955878590483755]
+2025-10-24 02:56:47,567 - LiveTrading - INFO - 🔍 DataFrame列名: ['open', 'high', 'low', 'close', 'volume', 'close_time', 'quote_volume', 'trades', 'taker_buy_base', 'taker_buy_quote', 'ignore', 'returns']
+2025-10-24 02:56:47,579 - LiveTrading - INFO - 🔍 特征计算后数据验证: close列后5个值=[3.9302018390231495, 3.953478088172974, 3.974119614140278, 3.9745260439070553, 3.955878590483755]
+2025-10-24 02:56:47,679 - LiveTrading - INFO - 📊 信号分析: prob_up=0.165, prob_down=0.835, strength=0.671
+2025-10-24 02:56:47,679 - LiveTrading - INFO - 🎯 信号结果: buy=True, sell=True
+2025-10-24 02:56:47,680 - LiveTrading - INFO - 🔍 价格调试: 原始价格=3.955878590483755, 类型=<class 'numpy.float64'>
+2025-10-24 02:56:47,680 - LiveTrading - INFO - 🔍 转换后价格: 3.955878590483755
+2025-10-24 02:56:47,680 - LiveTrading - INFO - 💰 仓位计算: 基础=1000, 强度倍数=0.671, 可用资金=10000.00, 最终仓位=169.578119
+2025-10-24 02:56:47,680 - LiveTrading - INFO - 🔍 余额调试信息:
+2025-10-24 02:56:47,680 - LiveTrading - INFO -   - 订单方向: OrderSide.BUY
+2025-10-24 02:56:47,680 - LiveTrading - INFO -   - 订单数量: 169.57811918787328
+2025-10-24 02:56:47,680 - LiveTrading - INFO -   - 订单价格: 3.955878590483755
+2025-10-24 02:56:47,680 - LiveTrading - INFO -   - 当前余额: {'USDT': PaperTradingExchange.get_balance.<locals>.Balance(free=10000, used=0.0, total=10000), 'FIL': PaperTradingExchange.get_balance.<locals>.Balance(free=0.0, used=0.0, total=0.0)}
+2025-10-24 02:56:47,680 - LiveTrading - INFO -   - 买入成本: 670.83 USDT
+2025-10-24 02:56:47,680 - LiveTrading - INFO -   - USDT余额类型: <class 'live.exchange_interface.PaperTradingExchange.get_balance.<locals>.Balance'>
+2025-10-24 02:56:47,680 - LiveTrading - INFO -   - USDT余额值: PaperTradingExchange.get_balance.<locals>.Balance(free=10000, used=0.0, total=10000)
+2025-10-24 02:56:47,680 - LiveTrading - INFO -   - USDT可用余额: 10000
+2025-10-24 02:56:47,680 - LiveTrading - INFO - 📝 创建订单: buy_1761274607680 - buy 169.578119 FIL/USDT @ 3.9559
+2025-10-24 02:56:47,680 - LiveTrading - INFO - 🔍 提交订单前状态: 订单ID=buy_1761274607680, 状态=OrderStatus.PENDING, 余额={'USDT': PaperTradingExchange.get_balance.<locals>.Balance(free=10000, used=0.0, total=10000), 'FIL': PaperTradingExchange.get_balance.<locals>.Balance(free=0.0, used=0.0, total=0.0)}
+2025-10-24 02:56:47,680 - LiveTrading - INFO - 📝 使用模拟交易模式
+2025-10-24 02:56:47,680 - LiveTrading - INFO - 🔍 订单提交后状态: 成功=False, 订单状态=rejected
+2025-10-24 02:56:47,680 - LiveTrading - ERROR - ❌ 订单提交失败: buy_1761274607680 - 状态: rejected
+2025-10-24 02:56:47,680 - LiveTrading - ERROR - ❌ 拒绝原因: 买入订单被拒绝 - 成本: 670.83 USDT, 可用: 10000.00 USDT, 订单状态: rejected
+2025-10-24 02:56:47,681 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 02:56:47,681 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 02:57:48,445 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 02:57:48,501 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 02:57:48,501 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 02:57:48,501 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 02:57:48,501 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 02:57:48,502 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 02:57:48,502 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 02:58:07,717 - LiveTrading - ERROR - ❌ 获取市场数据失败: overflow encountered in multiply
+2025-10-24 02:58:07,717 - LiveTrading - WARNING - ⚠️ 无法获取市场数据
+2025-10-24 02:58:07,717 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 02:59:36,157 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 02:59:36,219 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 02:59:36,219 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 02:59:36,219 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 02:59:36,219 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 02:59:36,223 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 02:59:36,223 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 02:59:55,006 - LiveTrading - ERROR - ❌ 获取市场数据失败: 12 columns passed, passed data had 6 columns
+2025-10-24 02:59:55,007 - LiveTrading - WARNING - ⚠️ 无法获取市场数据
+2025-10-24 02:59:55,007 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 03:01:42,453 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 03:01:42,508 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 03:01:42,509 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 03:01:42,509 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 03:01:42,509 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 03:01:42,510 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 03:01:42,510 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 03:02:00,856 - LiveTrading - ERROR - ❌ 获取市场数据失败: 12 columns passed, passed data had 6 columns
+2025-10-24 03:02:00,858 - LiveTrading - WARNING - ⚠️ 无法获取市场数据
+2025-10-24 03:02:00,858 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 03:02:25,774 - LiveTrading - INFO - ⏹️ 收到停止信号
+2025-10-24 03:02:25,775 - LiveTrading - INFO - 🏁 交易系统已停止
+2025-10-24 03:02:29,495 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 03:02:29,552 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 03:02:29,552 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 03:02:29,553 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 03:02:29,553 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 03:02:29,553 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 03:02:29,554 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 03:02:53,408 - LiveTrading - ERROR - ❌ 获取市场数据失败: 12 columns passed, passed data had 6 columns
+2025-10-24 03:02:53,409 - LiveTrading - WARNING - ⚠️ 无法获取市场数据
+2025-10-24 03:02:53,409 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 03:02:58,150 - LiveTrading - INFO - ⏹️ 收到停止信号
+2025-10-24 03:02:58,150 - LiveTrading - INFO - 🏁 交易系统已停止
+2025-10-24 03:04:54,168 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 03:04:54,243 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 03:04:54,244 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 03:04:54,244 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 03:04:54,244 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 03:05:18,977 - LiveTrading - ERROR - ❌ 获取市场数据失败: 12 columns passed, passed data had 6 columns
+2025-10-24 03:05:44,339 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 03:05:44,399 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 03:05:44,399 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 03:05:44,399 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 03:05:44,399 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 03:07:37,384 - LiveTrading - INFO - 🚀 初始化实盘交易系统...
+2025-10-24 03:07:37,442 - LiveTrading - INFO - ✅ 集成模型加载成功
+2025-10-24 03:07:37,442 - LiveTrading - INFO - ✅ 交易所接口初始化完成 (paper)
+2025-10-24 03:07:37,443 - LiveTrading - INFO - 💰 账户余额: {'USDT': 10000, 'FIL': 0.0}
+2025-10-24 03:07:37,443 - LiveTrading - INFO - ✅ 系统初始化完成
+2025-10-24 03:07:37,443 - TradingMonitor - INFO - ✅ 监控系统已启动
+2025-10-24 03:07:37,444 - LiveTrading - INFO - 🚀 开始实盘交易...
+2025-10-24 03:07:54,134 - LiveTrading - INFO - 🔍 原始数据验证: close列后5个值=[1.555, 1.555, 1.554, 1.555, 1.554]
+2025-10-24 03:07:54,134 - LiveTrading - INFO - 🔍 DataFrame列名: ['open', 'high', 'low', 'close', 'volume', 'returns']
+2025-10-24 03:07:54,143 - LiveTrading - INFO - 🔍 特征计算后数据验证: close列后5个值=[1.555, 1.555, 1.554, 1.555, 1.554]
+2025-10-24 03:07:54,250 - LiveTrading - INFO - 📊 信号分析: prob_up=0.073, prob_down=0.927, strength=0.853
+2025-10-24 03:07:54,250 - LiveTrading - INFO - 🎯 信号结果: buy=False, sell=True
+2025-10-24 03:07:54,251 - LiveTrading - INFO - 🔍 价格调试: 原始价格=1.554, 类型=<class 'numpy.float64'>
+2025-10-24 03:07:54,251 - LiveTrading - INFO - 🔍 转换后价格: 1.554
+2025-10-24 03:07:54,251 - LiveTrading - INFO - 📊 检测到卖出信号但当前无持仓，跳过交易
+2025-10-24 03:07:54,252 - LiveTrading - INFO - 💰 投资组合价值: $10000.00
+2025-10-24 03:07:54,252 - LiveTrading - INFO - ⏰ 等待 15.0 分钟后进行下一轮分析...
+2025-10-24 03:08:13,747 - LiveTrading - INFO - ⏹️ 收到停止信号
+2025-10-24 03:08:13,748 - LiveTrading - INFO - 🏁 交易系统已停止
