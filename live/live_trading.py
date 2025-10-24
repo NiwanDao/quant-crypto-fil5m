@@ -715,9 +715,27 @@ class LiveTradingSystem:
             try:
                 self.run_trading_cycle()
                 
-                # 等待下一个周期
-                sleep_time = 15 * 60  # 15分钟
-                self.logger.info(f"⏰ 等待 {sleep_time/60:.1f} 分钟后进行下一轮分析...")
+                # 等待下一个周期 - 根据分钟数(0,15,30,45)动态计算
+                current_time = datetime.now()
+                current_minute = current_time.minute
+                
+                # 计算到下一个关键时间点的分钟数
+                if current_minute < 15:
+                    next_minute = 15
+                elif current_minute < 30:
+                    next_minute = 30
+                elif current_minute < 45:
+                    next_minute = 45
+                else:
+                    next_minute = 60  # 下一个小时的0分
+                
+                # 计算需要等待的秒数
+                minutes_to_wait = next_minute - current_minute
+                if minutes_to_wait <= 0:
+                    minutes_to_wait = 15  # 如果计算错误，默认15分钟
+                
+                sleep_time = minutes_to_wait * 60
+                self.logger.info(f"⏰ 当前时间: {current_time.strftime('%H:%M')}, 等待 {minutes_to_wait} 分钟到 {next_minute:02d} 分进行下一轮分析...")
                 time.sleep(sleep_time)
                 
             except KeyboardInterrupt:
