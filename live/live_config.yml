@@ -1,0 +1,167 @@
+# 实盘交易配置文件
+# 请根据实际情况修改配置参数
+
+# 交易模式配置
+trading:
+  mode: "paper"  # paper: 模拟交易, live: 实盘交易
+  symbol: "FIL/USDT"
+  timeframe: "15m"
+  max_positions: 3
+  min_portfolio_value: 1000
+
+# 交易所配置
+exchange:
+  type: "binance"  # binance, okx, bybit, gateio
+  sandbox: true  # 是否使用测试网
+  api_key: ""  # 请设置环境变量 BINANCE_API_KEY
+  secret_key: ""  # 请设置环境变量 BINANCE_SECRET_KEY
+  passphrase: ""  # OKX需要，请设置环境变量 OKX_PASSPHRASE
+
+# 模型配置
+model:
+  model_path: "/home/shiyi/quant-crypto-fil5m/models/ensemble_models.pkl"
+  proba_threshold: 0.4370055004036483  # 降低买入阈值，增加交易机会
+  sell_threshold: 0.4722195191927673   # 降低卖出阈值，更容易卖出
+  min_signal_strength: 0.001  # 降低信号强度要求
+  use_ensemble: true
+  use_dynamic_thresholds: true
+
+# 风险管理配置
+risk_management:
+  max_portfolio_risk: 0.02  # 最大投资组合风险2%
+  max_position_risk: 0.005  # 最大单笔风险0.5%
+  max_drawdown_limit: 0.15  # 最大回撤限制15%
+  volatility_limit: 0.3  # 波动率限制30%
+  position_size_method: "volatility"  # fixed, percentage, volatility, kelly, risk_parity
+  base_position_size: 0.1  # 基础仓位10%
+  max_position_size: 0.2  # 最大仓位20%
+  stop_loss_atr_mult: 2.0  # 止损ATR倍数
+  take_profit_atr_mult: 3.0  # 止盈ATR倍数
+  trailing_stop: true  # 是否启用跟踪止损
+  # 混合止损策略配置
+  use_hybrid_stops: false        # 启用混合止损策略
+  emergency_stop_loss: 0.05    # 5%紧急止损
+  stop_loss_1m_atr_mult: 1.5   # 1分钟止损ATR倍数（更紧）
+  trailing_stop_1m: true       # 1分钟移动止损
+  realtime_emergency_stop: true # 实时紧急止损
+  # WebSocket专用1分钟止损配置
+  websocket_only_1m_stops: true # 仅使用WebSocket进行1分钟止损检查
+  websocket_kline_complete_only: true # 仅在K线完成时触发止损检查
+
+# 仓位管理配置
+position_sizing:
+  method: "volatility"  # 仓位计算方法
+  fixed_cash_per_trade: 1000  # 固定金额交易
+  max_leverage: 1.0  # 最大杠杆
+  min_trade_amount: 10  # 最小交易金额
+
+# 数据获取配置
+data_fetching:
+  update_interval: 900  # 数据更新间隔（秒）
+  history_limit: 1000  # 历史数据条数
+  enable_websocket: true  # 是否启用WebSocket
+  # 混合时间框架配置
+  signal_timeframe: "15m"      # 信号生成时间框架
+  stop_timeframe: "1m"         # 止损检查时间框架
+  emergency_stop: "realtime"   # 紧急止损使用实时数据
+  stop_check_interval: 60      # 止损检查间隔（秒）
+  websocket_config:
+    auto_reconnect: true  # 自动重连
+    reconnect_interval: 5  # 重连间隔（秒）
+    max_reconnect_attempts: 10  # 最大重连次数
+    heartbeat_interval: 30  # 心跳间隔（秒）
+    connection_timeout: 10  # 连接超时（秒）
+  data_sources: ["binance", "bybit"]  # 数据源（移除OKX，因为网络连接问题）
+
+# 监控配置
+monitoring:
+  enabled: true
+  update_interval: 60  # 监控更新间隔（秒）
+  performance_tracking: true
+  risk_monitoring: true
+  system_monitoring: true
+
+# 告警配置
+alerts:
+  enabled: true
+  thresholds:
+    max_drawdown: 0.1  # 回撤告警阈值
+    daily_return: -0.05  # 日收益率告警阈值
+    sharpe_ratio: 0.5  # 夏普比率告警阈值
+    risk_score: 0.8  # 风险评分告警阈值
+    max_positions: 10  # 最大持仓数量
+    memory_usage: 90  # 内存使用率告警阈值
+    cpu_usage: 90  # CPU使用率告警阈值
+    disk_usage: 90  # 磁盘使用率告警阈值
+
+# 通知配置
+notifications:
+  email:
+    enabled: false
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    username: ""  # 请设置环境变量 EMAIL_USERNAME
+    password: ""  # 请设置环境变量 EMAIL_PASSWORD
+    from_email: ""  # 请设置环境变量 EMAIL_FROM
+    to_email: ""  # 请设置环境变量 EMAIL_TO
+  
+  wechat:
+    enabled: false
+    webhook_url: ""  # 请设置环境变量 WECHAT_WEBHOOK_URL
+  
+  dingtalk:
+    enabled: false
+    webhook_url: ""  # 请设置环境变量 DINGTALK_WEBHOOK_URL
+
+# 日志配置
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file_rotation: true
+  max_file_size: "10MB"
+  backup_count: 5
+  console_output: true
+
+# 数据库配置（可选）
+database:
+  enabled: false
+  type: "sqlite"  # sqlite, mysql, postgresql
+  connection_string: "sqlite:///trading.db"
+  backup_enabled: true
+  backup_interval: 3600  # 备份间隔（秒）
+
+# 策略配置
+strategy:
+  name: "FIL_ML_Strategy"
+  version: "1.0"
+  description: "基于机器学习的FIL交易策略"
+  author: "Trading System"
+  
+# 回测配置（用于验证）
+backtest:
+  enabled: false
+  start_date: "2024-01-01"
+  end_date: "2024-12-31"
+  initial_cash: 10000
+  commission: 0.001
+  slippage: 0.0001
+
+# 安全配置
+security:
+  api_key_encryption: false  # 是否加密API密钥
+  max_failed_attempts: 5  # 最大失败尝试次数
+  lockout_duration: 300  # 锁定持续时间（秒）
+  ip_whitelist: []  # IP白名单（空表示不限制）
+
+# 性能优化配置
+performance:
+  max_workers: 4  # 最大工作线程数
+  cache_size: 1000  # 缓存大小
+  enable_profiling: false  # 是否启用性能分析
+  memory_limit: "2GB"  # 内存限制
+
+# 实验性功能
+experimental:
+  ai_optimization: false  # AI优化
+  sentiment_analysis: false  # 情感分析
+  news_impact: false  # 新闻影响分析
+  social_sentiment: false  # 社交媒体情感

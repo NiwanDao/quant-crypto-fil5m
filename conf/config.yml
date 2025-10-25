@@ -1,0 +1,78 @@
+backtest:
+  fixed_cash_per_trade: 1000
+  initial_cash: 10000
+  size_mode: fixed_cash
+  use_dynamic_thresholds: true
+  use_ensemble_prediction: true
+  use_optimized_model: true
+dynamic_thresholds:
+  enabled: true
+  max_buy_adjustment: 0.1
+  max_buy_threshold: 0.65
+  max_sell_adjustment: 0.1
+  max_sell_threshold: 0.65
+  min_buy_threshold: 0.3
+  min_sell_threshold: 0.1
+  performance_adjustment: true
+  regime_adjustment: true
+  strength_adjustment: true
+  trend_adjustment: true
+  volatility_adjustment: true
+exchange:
+  enableRateLimit: true
+  id: binance
+  options:
+    defaultType: spot
+    loadMarketsOnDemand: true
+    markets: {}
+    timeout: 30000
+features:
+  forward_n: 4
+  label_threshold: 0.001
+fees_slippage:
+  base_slippage_bps: 1
+  taker_fee_bps: 6
+fetch:
+  batch_limit: 1000
+  lookback_days: 120
+model:
+  early_stopping_rounds: 30
+  hyperparameter_optimization: true
+  min_confidence: 0.7
+  min_signal_strength: 0.4
+  n_ensemble_models: 5
+  n_trials: 50
+  optimized_at: '2025-10-25T09:12:41.180765'
+  proba_threshold: 0.4307559719770827
+  sell_threshold: 0.5472723984771705
+  uncertainty_threshold: 0.1
+  use_dynamic_thresholds: true
+  use_early_stopping: true
+  use_ensemble: true
+  use_model_weights: true
+  weight_by_performance: true
+risk:
+  atr_stop_mult: 1.5
+  atr_tp_mult: 2.0
+  atr_trail_mult: 1.0
+  dynamic_risk: true
+  max_risk_per_trade: 0.005
+  trailing_stop:
+    activation_threshold: 1.0
+    distance_multiplier: 1.5
+    enabled: true
+    max_distance: 0.05
+    min_distance: 0.01
+    update_frequency: 60
+  trend_risk_adjustment: true
+  volatility_risk_adjustment: true
+robustness:
+  confidence_filtering: true
+  enabled: true
+  max_uncertainty: 0.2
+  min_signal_confidence: 0.7
+  model_agreement_threshold: 0.6
+  require_model_agreement: true
+  uncertainty_filtering: true
+symbol: FIL/USDT
+timeframe: 15m
