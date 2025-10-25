@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+.ipynb_checkpoints/
+.cache/
+.DS_Store
+
+# Data & models (raw / heavy / generated)
+data/*.csv
+data/*.json
+data/*.parquet
+models/*.bin
+models/*.pkl
+models/*.txt
+
+# Backtest artifacts (可保留构件由 Actions 提供下载)
+backtest/*.png
+backtest/*.html
+
+# Logs
+*.log
+logs/
+live/logs/
+
+# Runtime state
+live/trading_state.json
+
+# Validation artifacts (generated)
+validation/*.csv
+validation/*.png
+validation/*.txt
+validation/*.json
+
+# Backtest artifacts (generated)
+backtest/*.csv
+backtest/*.json
+backtest/*.txt
+backtest/*.svg
+
+# Models (artifacts)
+models/*.json
+models/*.csv
+models/*.png
+
+# Data files (heavy/generated)
+data/**/*.csv
+data/**/*.json
+data/**/*.parquet
+data/**/*.feather
+data/**/*.npz
+data/**/*.npy
+
+# Python tooling caches & coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual envs
+venv/
+env/
+
+# Editors/OS
+.idea/
+.vscode/
+Thumbs.db
