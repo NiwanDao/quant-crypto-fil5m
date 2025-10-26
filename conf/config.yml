@@ -42,9 +42,9 @@ model:
   min_signal_strength: 0.4
   n_ensemble_models: 5
   n_trials: 50
-  optimized_at: '2025-10-25T09:12:41.180765'
-  proba_threshold: 0.4307559719770827
-  sell_threshold: 0.5472723984771705
+  optimized_at: '2025-10-26T06:43:24.199694'
+  proba_threshold: 0.4401341687923314
+  sell_threshold: 0.48529800961279107
   uncertainty_threshold: 0.1
   use_dynamic_thresholds: true
   use_early_stopping: true
