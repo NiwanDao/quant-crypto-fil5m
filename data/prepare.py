@@ -12,7 +12,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir)
 
-from utils.features import build_features_safe, build_labels_safe, detect_data_leakage
+from utils.features import build_features_safe, build_multi_feature_labels, detect_data_leakage
 
 CONF_PATH = "conf/config.yml"
 
@@ -314,10 +314,10 @@ def process_range(
     print("\n🔧 构建特征和标签...")
     df = build_features_safe(df)
 
-    df = build_labels_safe(
+    df = build_multi_feature_labels(
         df,
         forward_n=conf["features"]["forward_n"],
-        thr=conf["features"]["label_threshold"],
+        base_thr=conf["features"]["label_threshold"],
     )
 
     # 数据泄露检测

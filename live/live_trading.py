@@ -408,7 +408,7 @@ class LiveTradingSystem:
             self.logger.error(f"❌ 获取市场数据失败: {str(e)}")
             return pd.DataFrame()
     
-    def calculate_features(self, df: pd.DataFrame) -> pd.DataFrame:
+    def build_features_safe(self, df: pd.DataFrame) -> pd.DataFrame:
         """计算技术特征"""
         try:
             # 确保有returns列
@@ -1096,7 +1096,7 @@ class LiveTradingSystem:
             self.logger.info(f"🔍 DataFrame列名: {df.columns.tolist()}")
             
             # 计算特征
-            df = self.calculate_features(df)
+            df = self.build_features_safe(df)
             
             # 添加数据验证
             self.logger.info(f"🔍 特征计算后数据验证: close列后5个值={df['close'].tail(5).tolist()}")
@@ -1568,7 +1568,7 @@ class LiveTradingSystem:
                 df_15m = self.get_market_data(symbol, self.signal_timeframe, 100)
                 if not df_15m.empty:
                     # 计算特征
-                    df_15m = self.calculate_features(df_15m)
+                    df_15m = self.build_features_safe(df_15m)
                     
                     # 生成信号
                     buy_signal, sell_signal, signal_strength = self.generate_signal(df_15m)
